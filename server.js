@@ -8,4 +8,4 @@ const requestListener = function (req, res) {
 }
 
 const server = http.createServer(requestListener);
-server.listen(port);
+server.listen(port)
